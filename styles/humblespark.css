@@ -1,0 +1,274 @@
+.first-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../icons/uni-gif-wrapper.gif");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.header-menu{
+    margin-left:auto;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.header-menu ul li {
+    margin-left: 20px;
+}
+.header-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family:sans-serif;
+    transition: color 0.3s ease;
+}
+.header-menu ul li a:hover{
+    color: #ff3f3f;
+}
+.logo{
+    color: red;
+    font-weight: 400;
+    font-size:medium;
+    font:bold;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    position: absolute;
+    right: 0;
+}
+nav-links {
+    flex: 1;
+    text-align: right;
+   
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-box {
+    width: 100%;
+    max-width: 700px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.hero-btn {
+    display: inline-block;
+    background: rgb(56, 37, 37);
+    color: #fff;
+    border:1px solid #fff;
+    padding: 12px 34px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    background:transparent;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.hero-btn:hover {
+    background: #ff3f3f;
+    border:1px solid #ff3f3f;
+    color: #fff;
+}
+.campus {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.campus-col {
+    flex-basis: 31%;
+    position: relative;
+    overflow: hidden;
+}
+.activity{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.activity-col {
+   display:block;
+   width: 100%;
+   border-radius: 10px;
+}
+.activity-pics{
+    object-fit: cover;
+    display:inline-block;
+    display: flex;
+}
+.activity-col h3 {
+    margin-top: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+campus-col img {
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+    
+}
+.activity-pics img {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+   display: relative;
+   width: 80%;
+
+}
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.course h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.course p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.course-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.course-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.testimonial .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.testimonial-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.testimonial-title{
+    display:inline-block;
+    width: 245px;
+}
+.testimonial-col-img img {
+    width: 70px;
+    border-radius: 35px;
+    vertical-align:middle;
+    background-color: gray;
+}
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
+    transform: translateY(-5px);
+}
+.enroll{
+    display: block;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../icons/uni-17.jpg");
+    background-size: cover;
+    margin: 0%;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    object-fit: cover;
+    padding: 60px 20px;
+    width: 100%;
+    min-height: 200px;
+    font-weight : bolder;
+}
+.enroll h1{
+    font-weight:bolder;
+    font-size: 35px;
+    margin: 15px auto;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer{
+   font-weight: bolder; 
+   cursor: pointer;
+   font-size: 30px;
+}
+ .social-links img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+@media(max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
+}
