@@ -1,3 +1,7 @@
+body{
+    width: 100%;
+}
+
 .first-wrapper {
     width: 100%;
     height: 100vh;
@@ -8,7 +12,7 @@
     
 }
 header {
-    display: flex;
+    /* display: flex; This is the problem */
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
@@ -114,17 +118,12 @@ nav-links {
     gap: 30px;
 }
 
-.row {
+/* .row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.pictures {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
+} */
+
 .campus-col {
     flex-basis: 31%;
     border-radius: 10px;
@@ -157,12 +156,20 @@ nav-links {
     font-weight: 600;
     margin-bottom: 10px;
 }
-campus-col img {
+
+.campus-col img {
     width: 100%;
     border-radius: 10px;
-    display: block;
+    /* display: block; */
+    display: relative;
+    height: 80%;
     
 }
+
+.img1{
+    height: 400px;
+}
+
 .activity-pics img {
    display: flex;
    justify-content: space-between;
@@ -170,6 +177,7 @@ campus-col img {
    gap: 30px;
    display: relative;
    width: 80%;
+   height: 70%;
 
 }
 .course {
